@@ -318,3 +318,175 @@
 #31 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #32 {main}
 "} 
+[2020-01-04 17:01:07] local.ERROR: Cannot use isset() on the result of an expression (you can use "null !== expression" instead) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Cannot use isset() on the result of an expression (you can use \"null !== expression\" instead) at xdebug://debug-eval(1) : eval()'d code:1)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(148): Symfony\\Component\\Debug\\Exception\\FatalErrorException->__construct('???', '???', '???', '???', '???', '???', '???', '???', '???')
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalExceptionFromError('???', '???')
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 {main}
+"} 
+[2020-01-04 17:08:35] local.ERROR: Cannot use isset() on the result of an expression (you can use "null !== expression" instead) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Cannot use isset() on the result of an expression (you can use \"null !== expression\" instead) at xdebug://debug-eval:1)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(148): Symfony\\Component\\Debug\\Exception\\FatalErrorException->__construct('???', '???', '???', '???', '???', '???', '???', '???', '???')
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalExceptionFromError('???', '???')
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\\Routing\\RouteFileRegistrar->()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(416): Illuminate\\Routing\\RouteFileRegistrar->register('???')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\\Routing\\Router->loadRoutes('???')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\\Routing\\Router->group('???', '???')
+#7 /var/www/html/app/Providers/RouteServiceProvider.php(63): Illuminate\\Routing\\RouteRegistrar->group('???')
+#8 /var/www/html/app/Providers/RouteServiceProvider.php(47): App\\Providers\\RouteServiceProvider->mapWebRoutes()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): App\\Providers\\RouteServiceProvider->map()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array:{/var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:32}('???', '???')
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure:/var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:30-34}()
+#12 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure('???')
+#13 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod('???', '???', '???')
+#14 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(590): Illuminate\\Container\\BoundMethod::call('???', '???', '???', '???')
+#15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(87): Illuminate\\Foundation\\Application->call('???', '???', '???')
+#16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->loadRoutes()
+#17 /var/www/html/app/Providers/RouteServiceProvider.php(35): App\\Providers\\RouteServiceProvider->boot()
+#18 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): App\\Providers\\RouteServiceProvider->boot()
+#19 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array:{/var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:32}('???', '???')
+#20 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure:/var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:30-34}()
+#21 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure('???')
+#22 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod('???', '???', '???')
+#23 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(590): Illuminate\\Container\\BoundMethod::call('???', '???', '???', '???')
+#24 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(829): Illuminate\\Foundation\\Application->call('???', '???', '???')
+#25 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(812): Illuminate\\Foundation\\Application->bootProvider('???')
+#26 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(813): Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure:/var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:811-813}('???', '???')
+#27 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(813): array_walk('???', '???')
+#28 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#29 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap('???')
+#30 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\\Foundation\\Application->bootstrapWith('???')
+#31 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): App\\Http\\Kernel->bootstrap()
+#32 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): App\\Http\\Kernel->sendRequestThroughRouter('???')
+#33 /var/www/html/public/index.php(55): App\\Http\\Kernel->handle('???')
+#34 /var/www/html/public/index.php(0): {main}()
+#35 {main}
+"} 
+[2020-01-04 18:01:25] local.ERROR: Class 'Neomobil\RapidApi\RapidApiServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Neomobil\\RapidApi\\RapidApiServiceProvider' not found at /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:208)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Neomobil\\\\RapidA...')
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2020-01-04 18:01:57] local.ERROR: Class 'Neomobil\RapidApi\RapidApiServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Neomobil\\RapidApi\\RapidApiServiceProvider' not found at /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:208)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Neomobil\\\\RapidA...')
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#8 /var/www/html/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#9 {main}
+"} 
+[2020-01-04 18:02:49] local.ERROR: Class 'Neomobil\RapidApi\RapidApiServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Neomobil\\RapidApi\\RapidApiServiceProvider' not found at /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:208)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Neomobil\\\\RapidA...')
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2020-01-04 18:03:39] local.ERROR: grab {"exception":"[object] (Illuminate\\Container\\EntryNotFoundException(code: 0): grab at /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:644)
+[stacktrace]
+#0 /var/www/html/packages/neomobil/rapidapi/routes.php(3): Illuminate\\Container\\Container->get('grab', 'neomobil\\\apida...')
+#1 /var/www/html/packages/neomobil/rapidapi/RapidApiServiceProvider.php(28): include('/var/www/html/p...')
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(609): Neomobil\\RapidApi\\RapidApiServiceProvider->register()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Neomobil\\RapidApi\\RapidApiServiceProvider))
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+
+[previous exception] [object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [grab] does not exist. at /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:805)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\\Container\\Container->build('grab')
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(638): Illuminate\\Container\\Container->resolve('grab')
+#2 /var/www/html/packages/neomobil/rapidapi/routes.php(3): Illuminate\\Container\\Container->get('grab', 'neomobil\\\apida...')
+#3 /var/www/html/packages/neomobil/rapidapi/RapidApiServiceProvider.php(28): include('/var/www/html/p...')
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(609): Neomobil\\RapidApi\\RapidApiServiceProvider->register()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Neomobil\\RapidApi\\RapidApiServiceProvider))
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class grab does not exist at /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('grab')
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\\Container\\Container->build('grab')
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(638): Illuminate\\Container\\Container->resolve('grab')
+#3 /var/www/html/packages/neomobil/rapidapi/routes.php(3): Illuminate\\Container\\Container->get('grab', 'neomobil\\\apida...')
+#4 /var/www/html/packages/neomobil/rapidapi/RapidApiServiceProvider.php(28): include('/var/www/html/p...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(609): Neomobil\\RapidApi\\RapidApiServiceProvider->register()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Neomobil\\RapidApi\\RapidApiServiceProvider))
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2020-01-04 18:09:52] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at /var/www/html/packages/neomobil/rapidapi/routes.php:3)
+[stacktrace]
+#0 /var/www/html/packages/neomobil/rapidapi/routes.php(3): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/packages/neomobil/rapidapi/RapidApiServiceProvider.php(28): include('/var/www/html/p...')
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(609): Neomobil\\RapidApi\\RapidApiServiceProvider->register()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Neomobil\\RapidApi\\RapidApiServiceProvider))
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2020-01-04 18:10:17] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at /var/www/html/packages/neomobil/rapidapi/routes.php:3)
+[stacktrace]
+#0 /var/www/html/packages/neomobil/rapidapi/routes.php(3): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/packages/neomobil/rapidapi/RapidApiServiceProvider.php(28): include('/var/www/html/p...')
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(609): Neomobil\\RapidApi\\RapidApiServiceProvider->register()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Neomobil\\RapidApi\\RapidApiServiceProvider))
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2020-01-04 18:11:13] local.ERROR: Undefined variable: router {"exception":"[object] (ErrorException(code: 0): Undefined variable: router at /var/www/html/packages/neomobil/rapidapi/routes.php:3)
+[stacktrace]
+#0 /var/www/html/packages/neomobil/rapidapi/routes.php(3): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/packages/neomobil/rapidapi/RapidApiServiceProvider.php(28): include('/var/www/html/p...')
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(609): Neomobil\\RapidApi\\RapidApiServiceProvider->register()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Neomobil\\RapidApi\\RapidApiServiceProvider))
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(586): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /var/www/html/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
