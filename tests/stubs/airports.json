@@ -1,0 +1,15 @@
+[
+    {
+        "code": "BUD",
+        "country_code": "HU",
+        "name": "Liszt Ferenc repülőtér",
+        "city_name": "Budapest",
+        "display_name": "Budapest, Magyarország – Liszt Ferenc repülőtér",
+        "display_title": "Budapest, Magyarország",
+        "display_sub_title": "Liszt Ferenc repülőtér",
+        "location_id": 274887,
+        "time_zone_name": "Europe/Budapest",
+        "latitude": 47.433334,
+        "longitude": 19.233334
+    }
+]

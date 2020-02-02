@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use GuzzleHttp\Client;
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class RapidApiConnectionTest extends TestCase
 {
@@ -15,31 +15,41 @@ class RapidApiConnectionTest extends TestCase
     public function testConnection(): void
     {
         $client = new Client([
-            'base_uri' => 'https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com',
+            'base_uri' => 'https://tripadvisor1.p.rapidapi.com',
             'timeout' => 2.0
         ]);
 
-        $response = $client->request('POST', 'apiservices/pricing/v1.0', [
+        $response = $client->request('GET', 'airports/search', [
             'headers' => [
-                'x-rapidapi-host' => 'skyscanner-skyscanner-flight-search-v1.p.rapidapi.com',
-                'x-rapidapi-key' => '37d7e959c3msh98258bc8da778a9p18db20jsn1dec28d9f473',
-                'content-type' => 'application/x-www-form-urlencoded'
+                'x-rapidapi-host' => 'tripadvisor1.p.rapidapi.com',
+                'x-rapidapi-key' => '8e4d26d262mshdf6691bc56fe473p160d71jsndf9eb3398f54',
             ],
-            'form_params' => [
-                'inboundDate' => date('Y-m-d'),
-                'cabinClass' => 'economy',
-                'children' => 0,
-                'infants' => 0,
-                'country' => 'HU',
-                'currency' => 'HUF',
-                'locale' => 'hu-HU',
-                'originPlace' => 'BUD-sky',
-                'destinationPlace' => 'FUE-sky',
-                'outboundDate' => date('Y-m-d', time() + (3600 * 24 * 7)),
-                'adults' => 1
+            'query' => [
+                'locale' => 'hu_HU',
+                'query' => 'bud',
             ]
         ]);
 
         echo $response->getBody();
+
+        $statusCode = 200;
+        $responseData = [
+            [
+                'code' => 'BUD',
+                'country_code' => 'HU',
+                'name' => 'Liszt Ferenc repülőtér',
+                'city_name' => 'Budapest',
+                'display_name' => 'Budapest, Magyarország – Liszt Ferenc repülőtér',
+                'display_title' => 'Budapest, Magyarország',
+                'display_sub_title' => 'Liszt Ferenc repülőtér',
+                'location_id' => 274887,
+                'time_zone_name' => 'Europe/Budapest',
+                'latitude' => 47.433334,
+                'longitude' => 19.233334
+            ]
+        ];
+        $this->createMockResponse($responseData, $statusCode);
+        $this->assertEquals($response->getBody()->getContents(), $responseData);
+        $this->assertEquals($response->getStatusCode(), $statusCode);
     }
 }
