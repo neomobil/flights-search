@@ -15,14 +15,14 @@ class RapidApiConnectionTest extends TestCase
     public function testConnection(): void
     {
         $client = new Client([
-            'base_uri' => 'https://tripadvisor1.p.rapidapi.com',
+            'base_uri' => config('rapidapi.url'),
             'timeout' => 2.0
         ]);
 
         $response = $client->request('GET', 'airports/search', [
             'headers' => [
-                'x-rapidapi-host' => 'tripadvisor1.p.rapidapi.com',
-                'x-rapidapi-key' => '8e4d26d262mshdf6691bc56fe473p160d71jsndf9eb3398f54',
+                'x-rapidapi-host' => config('rapidapi.headers.x-rapidapi-host'),
+                'x-rapidapi-key' => config('rapidapi.headers.x-rapidapi-key'),
             ],
             'query' => [
                 'locale' => 'hu_HU',
