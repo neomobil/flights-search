@@ -40,5 +40,6 @@ class AirportsTest extends TestCase
         $response = $this->get('api/airports?search=bud');
         $response->assertStatus(200);
         $response->assertJsonStructure($this->structure);
+        $this->assertTrue(count($response->decodeResponseJson()) >= 1);
     }
 }
