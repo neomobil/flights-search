@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\AirportsRequest;
 use App\Repositories\AirportsRepository;
-use Illuminate\Support\Collection;
 
 class AirportsController extends Controller
 {
@@ -15,7 +14,7 @@ class AirportsController extends Controller
         $this->airportsRepository = $airportsRepository;
     }
 
-    public function search(AirportsRequest $request): Collection
+    public function search(AirportsRequest $request)
     {
         return $this->airportsRepository->get($request->search);
     }
