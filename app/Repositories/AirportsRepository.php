@@ -14,6 +14,6 @@ class AirportsRepository implements AirportsRepositoryInterface
      */
     public function get(string $string): Collection
     {
-
+        return collect([]);
     }
 }
