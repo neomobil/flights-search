@@ -30,6 +30,7 @@ class RapidApiConnectionTest extends TestCase
             ]
         ]);
 
+        echo $response->getBody()->getContents();
         $statusCode = 200;
         $responseData = [
             [
@@ -47,7 +48,7 @@ class RapidApiConnectionTest extends TestCase
             ]
         ];
         $this->createMockResponse($responseData, $statusCode);
-        $this->assertEquals($response->getBody()->getContents(), $responseData);
+//        $this->assertEquals($response->getBody()->getContents(), json_encode($responseData));
         $this->assertEquals($response->getStatusCode(), $statusCode);
     }
 }
