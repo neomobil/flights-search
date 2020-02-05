@@ -30,8 +30,6 @@ class RapidApiConnectionTest extends TestCase
             ]
         ]);
 
-        echo $response->getBody();
-
         $statusCode = 200;
         $responseData = [
             [
