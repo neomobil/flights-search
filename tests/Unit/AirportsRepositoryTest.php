@@ -4,6 +4,7 @@ namespace Tests\Unit;
 
 use App\Repositories\AirportsRepository;
 use Illuminate\Support\Collection;
+use Psr\Http\Message\StreamInterface;
 use Tests\TestCase;
 
 class AirportsRepositoryTest extends TestCase
@@ -17,6 +18,6 @@ class AirportsRepositoryTest extends TestCase
     {
         $airportsRepository = new AirportsRepository();
         $resp = $airportsRepository->get('bud');
-        $this->assertInstanceOf(Collection::class, $resp);
+        $this->assertInstanceOf(StreamInterface::class, $resp);
     }
 }
