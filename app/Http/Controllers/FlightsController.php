@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\FlightsRequest;
-use App\Repositories\FlightsRepositoryInterface;
+use App\Repositories\Interfaces\FlightsRepositoryInterface;
 
 class FlightsController extends Controller
 {

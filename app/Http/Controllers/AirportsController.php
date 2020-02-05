@@ -4,12 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\AirportsRequest;
 use App\Repositories\AirportsRepository;
+use App\Repositories\Interfaces\AirportsRepositoryInterface;
 
 class AirportsController extends Controller
 {
     protected $airportsRepository;
 
-    public function __construct(AirportsRepository $airportsRepository)
+    public function __construct(AirportsRepositoryInterface $airportsRepository)
     {
         $this->airportsRepository = $airportsRepository;
     }

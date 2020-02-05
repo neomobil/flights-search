@@ -4,9 +4,9 @@ namespace App\Providers;
 
 use App\Repositories\AirportsRepository;
 use App\Repositories\FlightsRepository;
-use App\Repositories\FlightsRepositoryInterface;
+use App\Repositories\Interfaces\AirportsRepositoryInterface;
+use App\Repositories\Interfaces\FlightsRepositoryInterface;
 use Illuminate\Support\ServiceProvider;
-use App\Repositories\AirportsRepositoryInterface;
 
 class FlightsServiceProvider extends ServiceProvider
 {

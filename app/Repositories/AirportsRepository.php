@@ -2,6 +2,7 @@
 
 namespace App\Repositories;
 
+use App\Repositories\Interfaces\AirportsRepositoryInterface;
 use GuzzleHttp\Client;
 use Psr\Http\Message\StreamInterface;
 
