@@ -3,7 +3,7 @@
 namespace App\Repositories;
 
 use GuzzleHttp\Client;
-use Illuminate\Support\Collection;
+use Psr\Http\Message\StreamInterface;
 
 class AirportsRepository implements AirportsRepositoryInterface
 {
@@ -20,9 +20,8 @@ class AirportsRepository implements AirportsRepositoryInterface
 
     /**
      * @inheritDoc
-     * @return collection
      */
-    public function get(string $string, string $locale = 'en_EN')
+    public function get(string $string, string $locale = 'en_EN'): StreamInterface
     {
         $response = $this->client->request('GET', 'airports/search', [
             'headers' => [
