@@ -38,7 +38,7 @@ class FlightsRepository implements FlightsRepositoryInterface
      */
     public function pollBySid(string $sid, string $currency = 'EUR', $ns = 'NON_STOP,ONE_STOP', $sort = 'PRICE')
     {
-        return $this->client->get('flights/create-session', [
+        return $this->client->get('flights/poll', [
             'query' => [
                 'sid' => $sid,
                 'currency' => $currency,

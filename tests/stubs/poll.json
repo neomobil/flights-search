@@ -1,0 +1,2255 @@
+{
+    "summary": {
+        "cu": "EUR",
+        "et": 1581263121,
+        "op": [
+            {
+                "k": "VIE",
+                "t": "Vienna, AT (VIE)",
+                "p": "€147"
+            }
+        ],
+        "nr": 258,
+        "fi": 51,
+        "pd": "€147",
+        "dp": [
+            {
+                "k": "FUE",
+                "t": "Fuerteventura, ES (FUE)",
+                "p": "€147"
+            }
+        ],
+        "ap": [
+            {
+                "k": "BCN",
+                "t": "Barcelona, ES (BCN)",
+                "p": "€147"
+            },
+            {
+                "k": "TXL",
+                "t": "Berlin, DE (TXL)",
+                "p": "€372"
+            },
+            {
+                "k": "CGN",
+                "t": "Bonn, DE (CGN)",
+                "p": "€237"
+            },
+            {
+                "k": "GVA",
+                "t": "Canton of Geneva, CH (GVA)",
+                "p": "€480"
+            },
+            {
+                "k": "DOH",
+                "t": "Doha, QA (DOH)",
+                "p": "€1,157"
+            },
+            {
+                "k": "DUB",
+                "t": "Dublin, IE (DUB)",
+                "p": "€1,242"
+            },
+            {
+                "k": "DUS",
+                "t": "Dusseldorf, DE (DUS)",
+                "p": "€360"
+            },
+            {
+                "k": "FRA",
+                "t": "Frankfurt, DE (FRA)",
+                "p": "€409"
+            },
+            {
+                "k": "HAM",
+                "t": "Hamburg, DE (HAM)",
+                "p": "€302"
+            },
+            {
+                "k": "HAJ",
+                "t": "Hannover, DE (HAJ)",
+                "p": "€1,313"
+            },
+            {
+                "k": "LPA",
+                "t": "Las Palmas de Gran Canaria, ES (LPA)",
+                "p": "€261"
+            },
+            {
+                "k": "LHR",
+                "t": "London, GB (LHR)",
+                "p": "€457"
+            },
+            {
+                "k": "MAD",
+                "t": "Madrid, ES (MAD)",
+                "p": "€230"
+            },
+            {
+                "k": "MUC",
+                "t": "Munich, DE (MUC)",
+                "p": "€183"
+            },
+            {
+                "k": "STR",
+                "t": "Stuttgart, DE (STR)",
+                "p": "€475"
+            },
+            {
+                "k": "TFN",
+                "t": "Tenerife, ES (TFN)",
+                "p": "€781"
+            },
+            {
+                "k": "TFS",
+                "t": "Tenerife, ES (TFS)",
+                "p": "€781"
+            },
+            {
+                "k": "WAW",
+                "t": "Warsaw, PL (WAW)",
+                "p": "€332"
+            },
+            {
+                "k": "ZRH",
+                "t": "Zurich, CH (ZRH)",
+                "p": "€426"
+            }
+        ],
+        "sd": [
+            {
+                "k": "0",
+                "min": "2020-02-22T04:40:00Z",
+                "max": "2020-02-22T21:15:00Z",
+                "tz": "Europe/Vienna"
+            }
+        ],
+        "sa": [
+            {
+                "k": "0",
+                "min": "2020-02-22T13:15:00Z",
+                "max": "2020-02-24T15:40:00Z",
+                "tz": "Atlantic/Canary"
+            }
+        ],
+        "su": [
+            {
+                "k": "0",
+                "min": 290,
+                "max": 3030
+            }
+        ],
+        "a": [
+            {
+                "l": "https://static.tacdn.com/img2/flights/amenity_icons/gray/wifi.png",
+                "k": "WIFI",
+                "t": "WiFi"
+            },
+            {
+                "l": "https://static.tacdn.com/img2/flights/amenity_icons/gray/power.png",
+                "k": "POWER",
+                "t": "Power available"
+            },
+            {
+                "l": "https://static.tacdn.com/img2/flights/amenity_icons/gray/tv.png",
+                "k": "TV",
+                "t": "Television"
+            }
+        ],
+        "cp": [
+            {
+                "k": "OS",
+                "t": "Austrian",
+                "p": "€246"
+            },
+            {
+                "k": "BA",
+                "t": "British Airways",
+                "p": "€521"
+            },
+            {
+                "k": "EW",
+                "t": "Eurowings",
+                "p": "€237"
+            },
+            {
+                "k": "IB",
+                "t": "Iberia",
+                "p": "€230"
+            },
+            {
+                "k": "OE",
+                "t": "Laudamotion",
+                "p": "€165"
+            },
+            {
+                "k": "LH",
+                "t": "Lufthansa",
+                "p": "€360"
+            },
+            {
+                "k": "QR",
+                "t": "Qatar Airways",
+                "p": "€1,157"
+            },
+            {
+                "k": "FR",
+                "t": "Ryanair",
+                "p": "€165"
+            },
+            {
+                "k": "LX",
+                "t": "SWISS",
+                "p": "€426"
+            },
+            {
+                "k": "VY",
+                "t": "Vueling",
+                "p": "€197"
+            },
+            {
+                "k": "ZZ",
+                "t": "Multiple Airlines",
+                "p": "€147"
+            }
+        ],
+        "ocp": [
+            {
+                "k": "OS",
+                "t": "Austrian",
+                "p": "€246"
+            },
+            {
+                "k": "EW",
+                "t": "Eurowings",
+                "p": "€404"
+            },
+            {
+                "k": "OE",
+                "t": "Laudamotion",
+                "p": "€165"
+            },
+            {
+                "k": "FR",
+                "t": "Ryanair",
+                "p": "€165"
+            },
+            {
+                "k": "VY",
+                "t": "Vueling",
+                "p": "€197"
+            },
+            {
+                "k": "ZZ",
+                "t": "Multiple Airlines",
+                "p": "€147"
+            }
+        ],
+        "pp": [
+            {
+                "k": "CheapoAir",
+                "t": "CheapOair",
+                "p": "€165"
+            },
+            {
+                "k": "CheapTickets",
+                "t": "CheapTickets",
+                "p": "€231"
+            },
+            {
+                "k": "Expedia",
+                "t": "Expedia",
+                "p": "€230"
+            },
+            {
+                "k": "FlightNetwork",
+                "t": "FlightNetwork",
+                "p": "€147"
+            },
+            {
+                "k": "Hotwire",
+                "t": "Hotwire",
+                "p": "€238"
+            },
+            {
+                "k": "OneTravel",
+                "t": "OneTravel",
+                "p": "€165"
+            },
+            {
+                "k": "Orbitz",
+                "t": "Orbitz",
+                "p": "€231"
+            },
+            {
+                "k": "Priceline",
+                "t": "Priceline",
+                "p": "€196"
+            },
+            {
+                "k": "Travix",
+                "t": "Vayama",
+                "p": "€244"
+            }
+        ],
+        "sp": [
+            {
+                "k": "NON_STOP",
+                "t": "Nonstop",
+                "p": "€165"
+            },
+            {
+                "k": "ONE_STOP",
+                "t": "1 Stop",
+                "p": "€147"
+            },
+            {
+                "k": "TWO_PLUS",
+                "t": "2+ Stops",
+                "p": "€261"
+            }
+        ],
+        "dn": 290,
+        "dx": 3030,
+        "da": 1338.7393798828125,
+        "c": false,
+        "f": true,
+        "p": 147.44,
+        "so": [
+            {
+                "st": "Sorted by Price",
+                "n": "Price",
+                "k": "PRICE"
+            },
+            {
+                "st": "Sorted by FlyScore",
+                "n": "FlyScore",
+                "dc": "FlyScore is based on the quality of the aircraft, amenities, flight duration, and Tripadvisor reviews.",
+                "k": "FLIGHTSCORE"
+            },
+            {
+                "st": "Sorted by Duration",
+                "n": "Duration",
+                "k": "DURATION"
+            },
+            {
+                "st": "Sorted by Best Value",
+                "n": "Best Value",
+                "dc": "These flights offer the best combination of price, flight duration, and sometimes factors such as additional fees.",
+                "k": "ML_BEST_VALUE"
+            },
+            {
+                "st": "Sorted by Earliest VIE departure",
+                "n": "Earliest VIE departure",
+                "k": "EARLIEST_OUTBOUND_DEPARTURE"
+            },
+            {
+                "st": "Sorted by Earliest FUE arrival",
+                "n": "Earliest FUE arrival",
+                "k": "EARLIEST_OUTBOUND_ARRIVAL"
+            },
+            {
+                "st": "Sorted by Latest VIE departure",
+                "n": "Latest VIE departure",
+                "k": "LATEST_OUTBOUND_DEPARTURE"
+            },
+            {
+                "st": "Sorted by Latest FUE arrival",
+                "n": "Latest FUE arrival",
+                "k": "LATEST_OUTBOUND_ARRIVAL"
+            }
+        ],
+        "sh": "af7f006e3dff601fdadc21de0ded65b9"
+    },
+    "itineraries": [
+        {
+            "key": "00VYVY1.0955VIE1.1215BCN0~00FRFR2.1440BCN2.1800FUE0",
+            "ac": "00VYVY1.0955VIE1.1215BCN0~00FRFR2.1440BCN2.1800FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 134.0,
+                        "f": 34.31624,
+                        "dp": "€134",
+                        "df": "€34.32"
+                    },
+                    "id": "FlightNetwork|1|14",
+                    "m": "FlightNetworkUSMeta",
+                    "s": "FlightNetwork",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "BCN",
+                            "c": 0,
+                            "m": "VY",
+                            "o": "VY",
+                            "e": "32A",
+                            "f": "8715",
+                            "si": 1486,
+                            "n": 0,
+                            "dd": "2020-02-22T10:55:00+01:00",
+                            "ad": "2020-02-22T13:15:00+01:00",
+                            "di": 851.8252,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "BCN",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "FR",
+                            "o": "FR",
+                            "e": "73H",
+                            "f": "6302",
+                            "si": 1568,
+                            "n": 0,
+                            "dd": "2020-02-23T15:40:00+01:00",
+                            "ad": "2020-02-23T18:00:00Z",
+                            "di": 1261.7158,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": true
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "BCN",
+                            "d": 1585,
+                            "t": "Long layover at BCN for <b>26h 25m</b>",
+                            "c": "LONG"
+                        }
+                    ],
+                    "od": []
+                }
+            ],
+            "fs": 0.0,
+            "od": "",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00FRFR1.1140VIE1.1630FUE0",
+            "ac": "00FRFR1.1140VIE1.1630FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 150.0,
+                        "f": 1.8243614,
+                        "dp": "€150",
+                        "df": "€1.82"
+                    },
+                    "id": "CheapoAir|1|35",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "FR",
+                            "o": "FR",
+                            "f": "2168",
+                            "si": 0,
+                            "n": 0,
+                            "dd": "2020-02-22T12:40:00+01:00",
+                            "ad": "2020-02-22T16:30:00Z",
+                            "di": 2113.4507,
+                            "ac": [],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [],
+                    "od": []
+                }
+            ],
+            "fs": 0.0,
+            "od": "",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00OEOE1.1140VIE1.1630FUE0",
+            "ac": "00OEOE1.1140VIE1.1630FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 151.0,
+                        "f": 1.8243614,
+                        "dp": "€151",
+                        "df": "€1.82"
+                    },
+                    "id": "OneTravel|1|56",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 155.0,
+                        "f": 5.819713,
+                        "dp": "€155",
+                        "df": "€5.82"
+                    },
+                    "id": "CheapoAir|1|34",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "OE",
+                            "o": "OE",
+                            "f": "2168",
+                            "si": 0,
+                            "n": 0,
+                            "dd": "2020-02-22T12:40:00+01:00",
+                            "ad": "2020-02-22T16:30:00Z",
+                            "di": 2113.4507,
+                            "ac": [],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [],
+                    "od": []
+                }
+            ],
+            "fs": 0.0,
+            "od": "",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00OSOS1.0530VIE1.0635MUC0~004UEW2.0530MUC2.1010FUE0",
+            "ac": "00OSOS1.0530VIE1.0635MUC0~004UEW2.0530MUC2.1010FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 167.0,
+                        "f": 68.71458,
+                        "dp": "€167",
+                        "df": "€68.71"
+                    },
+                    "id": "FlightNetwork|1|13",
+                    "m": "FlightNetworkUSMeta",
+                    "s": "FlightNetwork",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 175.0,
+                        "f": 59.729595,
+                        "dp": "€175",
+                        "df": "€59.73"
+                    },
+                    "id": "OneTravel|1|54",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 175.0,
+                        "f": 59.729595,
+                        "dp": "€175",
+                        "df": "€59.73"
+                    },
+                    "id": "CheapoAir|1|37",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 178.0,
+                        "f": 88.153145,
+                        "dp": "€178",
+                        "df": "€88.15"
+                    },
+                    "id": "Priceline|1|45",
+                    "m": "PricelineUSMobileMeta",
+                    "s": "Priceline",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "MUC",
+                            "c": 0,
+                            "m": "OS",
+                            "o": "OS",
+                            "f": "111",
+                            "si": 3412,
+                            "n": 0,
+                            "dd": "2020-02-22T06:30:00+01:00",
+                            "ad": "2020-02-22T07:35:00+01:00",
+                            "di": 221.15555,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "MUC",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "EW",
+                            "o": "4U",
+                            "e": "320",
+                            "f": "1812",
+                            "si": 1967,
+                            "n": 0,
+                            "dd": "2020-02-23T06:30:00+01:00",
+                            "ad": "2020-02-23T10:10:00Z",
+                            "di": 1936.0247,
+                            "od": "Germanwings operates flight #1812",
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "MUC",
+                            "d": 1375,
+                            "t": "Long layover at MUC for <b>22h 55m</b>",
+                            "c": "LONG"
+                        }
+                    ],
+                    "od": [
+                        "Germanwings operates flight #1812"
+                    ]
+                }
+            ],
+            "fs": 0.0,
+            "od": "Germanwings operates flight #1812",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00LHLH1.1215VIE1.1320MUC0~004UEW2.0530MUC2.1010FUE0",
+            "ac": "00LHLH1.1215VIE1.1320MUC0~004UEW2.0530MUC2.1010FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 175.0,
+                        "f": 59.729595,
+                        "dp": "€175",
+                        "df": "€59.73"
+                    },
+                    "id": "CheapoAir|1|33",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 175.0,
+                        "f": 59.729595,
+                        "dp": "€175",
+                        "df": "€59.73"
+                    },
+                    "id": "OneTravel|1|57",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 178.0,
+                        "f": 88.153145,
+                        "dp": "€178",
+                        "df": "€88.15"
+                    },
+                    "id": "Priceline|1|46",
+                    "m": "PricelineUSMobileMeta",
+                    "s": "Priceline",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "MUC",
+                            "c": 0,
+                            "m": "LH",
+                            "o": "LH",
+                            "e": "320",
+                            "f": "2329",
+                            "si": 863,
+                            "n": 0,
+                            "dd": "2020-02-22T13:15:00+01:00",
+                            "ad": "2020-02-22T14:20:00+01:00",
+                            "di": 221.15555,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "MUC",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "EW",
+                            "o": "4U",
+                            "e": "320",
+                            "f": "1812",
+                            "si": 1967,
+                            "n": 0,
+                            "dd": "2020-02-23T06:30:00+01:00",
+                            "ad": "2020-02-23T10:10:00Z",
+                            "di": 1936.0247,
+                            "od": "Germanwings operates flight #1812",
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "MUC",
+                            "d": 970,
+                            "t": "Long layover at MUC for <b>16h 10m</b>",
+                            "c": "LONG"
+                        }
+                    ],
+                    "od": [
+                        "Germanwings operates flight #1812"
+                    ]
+                }
+            ],
+            "fs": 0.0,
+            "od": "Germanwings operates flight #1812",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00LHLH1.0820VIE1.0925MUC0~004UEW2.0530MUC2.1010FUE0",
+            "ac": "00LHLH1.0820VIE1.0925MUC0~004UEW2.0530MUC2.1010FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 175.0,
+                        "f": 59.729595,
+                        "dp": "€175",
+                        "df": "€59.73"
+                    },
+                    "id": "OneTravel|1|53",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 175.0,
+                        "f": 59.729595,
+                        "dp": "€175",
+                        "df": "€59.73"
+                    },
+                    "id": "CheapoAir|1|36",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 178.0,
+                        "f": 88.153145,
+                        "dp": "€178",
+                        "df": "€88.15"
+                    },
+                    "id": "Priceline|1|44",
+                    "m": "PricelineUSMobileMeta",
+                    "s": "Priceline",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "MUC",
+                            "c": 0,
+                            "m": "LH",
+                            "o": "LH",
+                            "e": "320",
+                            "f": "2327",
+                            "si": 863,
+                            "n": 0,
+                            "dd": "2020-02-22T09:20:00+01:00",
+                            "ad": "2020-02-22T10:25:00+01:00",
+                            "di": 221.15555,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "MUC",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "EW",
+                            "o": "4U",
+                            "e": "320",
+                            "f": "1812",
+                            "si": 1967,
+                            "n": 0,
+                            "dd": "2020-02-23T06:30:00+01:00",
+                            "ad": "2020-02-23T10:10:00Z",
+                            "di": 1936.0247,
+                            "od": "Germanwings operates flight #1812",
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "MUC",
+                            "d": 1205,
+                            "t": "Long layover at MUC for <b>20h 5m</b>",
+                            "c": "LONG"
+                        }
+                    ],
+                    "od": [
+                        "Germanwings operates flight #1812"
+                    ]
+                }
+            ],
+            "fs": 0.0,
+            "od": "Germanwings operates flight #1812",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00OSLH1.0530VIE1.0635MUC0~004UEW2.0530MUC2.1010FUE0",
+            "ac": "00OSLH1.0530VIE1.0635MUC0~004UEW2.0530MUC2.1010FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 175.0,
+                        "f": 59.729595,
+                        "dp": "€175",
+                        "df": "€59.73"
+                    },
+                    "id": "OneTravel|1|55",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 175.0,
+                        "f": 59.729595,
+                        "dp": "€175",
+                        "df": "€59.73"
+                    },
+                    "id": "CheapoAir|1|38",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "MUC",
+                            "c": 0,
+                            "m": "LH",
+                            "o": "OS",
+                            "e": "E95",
+                            "f": "6325",
+                            "si": 3412,
+                            "n": 0,
+                            "dd": "2020-02-22T06:30:00+01:00",
+                            "ad": "2020-02-22T07:35:00+01:00",
+                            "di": 221.15555,
+                            "od": "Austrian Airlines operates flight #6325",
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "MUC",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "EW",
+                            "o": "4U",
+                            "e": "320",
+                            "f": "1812",
+                            "si": 1967,
+                            "n": 0,
+                            "dd": "2020-02-23T06:30:00+01:00",
+                            "ad": "2020-02-23T10:10:00Z",
+                            "di": 1936.0247,
+                            "od": "Germanwings operates flight #1812",
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "MUC",
+                            "d": 1375,
+                            "t": "Long layover at MUC for <b>22h 55m</b>",
+                            "c": "LONG"
+                        }
+                    ],
+                    "od": [
+                        "Austrian Airlines operates flight #6325",
+                        "Germanwings operates flight #1812"
+                    ]
+                }
+            ],
+            "fs": 0.0,
+            "od": "Austrian Airlines operates flight #6325, Germanwings operates flight #1812",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00VYVY1.0955VIE1.1215BCN0~00VYVY2.0930BCN2.1245FUE0",
+            "ac": "00VYVY1.0955VIE1.1215BCN0~00VYVY2.0930BCN2.1245FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 180.0,
+                        "f": 34.31624,
+                        "dp": "€180",
+                        "df": "€34.32"
+                    },
+                    "id": "FlightNetwork|1|12",
+                    "m": "FlightNetworkUSMeta",
+                    "s": "FlightNetwork",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "BCN",
+                            "c": 0,
+                            "m": "VY",
+                            "o": "VY",
+                            "e": "32A",
+                            "f": "8715",
+                            "si": 1486,
+                            "n": 0,
+                            "dd": "2020-02-22T10:55:00+01:00",
+                            "ad": "2020-02-22T13:15:00+01:00",
+                            "di": 851.8252,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "BCN",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "VY",
+                            "o": "VY",
+                            "e": "32A",
+                            "f": "3014",
+                            "si": 1486,
+                            "n": 0,
+                            "dd": "2020-02-23T10:30:00+01:00",
+                            "ad": "2020-02-23T12:45:00Z",
+                            "di": 1261.7158,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": true
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "BCN",
+                            "d": 1275,
+                            "t": "Long layover at BCN for <b>21h 15m</b>",
+                            "c": "LONG"
+                        }
+                    ],
+                    "od": []
+                }
+            ],
+            "fs": 0.0,
+            "od": "",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00E2OS1.0600VIE1.0815BCN0~00FRFR2.1440BCN2.1800FUE0",
+            "ac": "00E2OS1.0600VIE1.0815BCN0~00FRFR2.1440BCN2.1800FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 200.0,
+                        "f": 85.67201,
+                        "dp": "€200",
+                        "df": "€85.67"
+                    },
+                    "id": "FlightNetwork|1|11",
+                    "m": "FlightNetworkUSMeta",
+                    "s": "FlightNetwork",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "BCN",
+                            "c": 0,
+                            "m": "OS",
+                            "o": "E2",
+                            "e": "320",
+                            "f": "391",
+                            "si": 0,
+                            "n": 0,
+                            "dd": "2020-02-22T07:00:00+01:00",
+                            "ad": "2020-02-22T09:15:00+01:00",
+                            "di": 851.8252,
+                            "od": "Eurowings Europe operates flight #391",
+                            "ac": [],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "BCN",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "FR",
+                            "o": "FR",
+                            "e": "73H",
+                            "f": "6302",
+                            "si": 1568,
+                            "n": 0,
+                            "dd": "2020-02-23T15:40:00+01:00",
+                            "ad": "2020-02-23T18:00:00Z",
+                            "di": 1261.7158,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": true
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "BCN",
+                            "d": 1825,
+                            "t": "Long layover at BCN for <b>30h 25m</b>",
+                            "c": "LONG"
+                        }
+                    ],
+                    "od": [
+                        "Eurowings Europe operates flight #391"
+                    ]
+                }
+            ],
+            "fs": 0.0,
+            "od": "Eurowings Europe operates flight #391",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00IBIB1.1120VIE1.1425MAD0~00I2IB1.1915MAD1.2200FUE0",
+            "ac": "00IBIB1.1120VIE1.1425MAD0~00I2IB1.1915MAD1.2200FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 210.0,
+                        "f": 42.325188,
+                        "dp": "€210",
+                        "df": "€42.33"
+                    },
+                    "id": "OneTravel|1|51",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 210.0,
+                        "f": 0.0,
+                        "dp": "€210",
+                        "df": "€0.00"
+                    },
+                    "id": "Expedia|1|47",
+                    "m": "ExpediaUSMeta",
+                    "s": "Expedia",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 210.0,
+                        "f": 42.325188,
+                        "dp": "€210",
+                        "df": "€42.33"
+                    },
+                    "id": "CheapoAir|1|31",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 211.0,
+                        "f": 0.0,
+                        "dp": "€211",
+                        "df": "€0.00"
+                    },
+                    "id": "CheapTickets|1|39",
+                    "m": "CTIXUSMeta",
+                    "s": "CheapTickets",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 211.0,
+                        "f": 0.0,
+                        "dp": "€211",
+                        "df": "€0.00"
+                    },
+                    "id": "Orbitz|1|24",
+                    "m": "OrbitzUSMeta",
+                    "s": "Orbitz",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 223.0,
+                        "f": 55.82546,
+                        "dp": "€223",
+                        "df": "€55.83"
+                    },
+                    "id": "Travix|1|109",
+                    "m": "VayamaUSMeta",
+                    "s": "Travix",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "MAD",
+                            "c": 0,
+                            "m": "IB",
+                            "o": "IB",
+                            "e": "32A",
+                            "f": "3121",
+                            "si": 1549,
+                            "n": 0,
+                            "dd": "2020-02-22T12:20:00+01:00",
+                            "ad": "2020-02-22T15:25:00+01:00",
+                            "di": 1122.689,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "MAD",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "IB",
+                            "o": "I2",
+                            "e": "32A",
+                            "f": "3902",
+                            "si": 0,
+                            "n": 0,
+                            "dd": "2020-02-22T20:15:00+01:00",
+                            "ad": "2020-02-22T22:00:00Z",
+                            "di": 1014.64453,
+                            "od": "Iberia Express operates flight #3902",
+                            "ac": [],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "MAD",
+                            "d": 290,
+                            "t": "Layover at MAD for <b>4h 50m</b>",
+                            "c": "NORMAL"
+                        }
+                    ],
+                    "od": [
+                        "Iberia Express operates flight #3902"
+                    ]
+                }
+            ],
+            "fs": 0.0,
+            "od": "Iberia Express operates flight #3902",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00IBIB1.0610VIE1.0925MAD0~00I2IB1.1915MAD1.2200FUE0",
+            "ac": "00IBIB1.0610VIE1.0925MAD0~00I2IB1.1915MAD1.2200FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 210.0,
+                        "f": 42.325188,
+                        "dp": "€210",
+                        "df": "€42.33"
+                    },
+                    "id": "CheapoAir|1|32",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 210.0,
+                        "f": 0.0,
+                        "dp": "€210",
+                        "df": "€0.00"
+                    },
+                    "id": "Expedia|1|48",
+                    "m": "ExpediaUSMeta",
+                    "s": "Expedia",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 210.0,
+                        "f": 42.325188,
+                        "dp": "€210",
+                        "df": "€42.33"
+                    },
+                    "id": "OneTravel|1|52",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 211.0,
+                        "f": 0.0,
+                        "dp": "€211",
+                        "df": "€0.00"
+                    },
+                    "id": "Orbitz|1|25",
+                    "m": "OrbitzUSMeta",
+                    "s": "Orbitz",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 211.0,
+                        "f": 0.0,
+                        "dp": "€211",
+                        "df": "€0.00"
+                    },
+                    "id": "CheapTickets|1|40",
+                    "m": "CTIXUSMeta",
+                    "s": "CheapTickets",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 223.0,
+                        "f": 55.82546,
+                        "dp": "€223",
+                        "df": "€55.83"
+                    },
+                    "id": "Travix|1|110",
+                    "m": "VayamaUSMeta",
+                    "s": "Travix",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "MAD",
+                            "c": 0,
+                            "m": "IB",
+                            "o": "IB",
+                            "e": "320",
+                            "f": "3125",
+                            "si": 1549,
+                            "n": 0,
+                            "dd": "2020-02-22T07:10:00+01:00",
+                            "ad": "2020-02-22T10:25:00+01:00",
+                            "di": 1122.689,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "MAD",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "IB",
+                            "o": "I2",
+                            "e": "32A",
+                            "f": "3902",
+                            "si": 0,
+                            "n": 0,
+                            "dd": "2020-02-22T20:15:00+01:00",
+                            "ad": "2020-02-22T22:00:00Z",
+                            "di": 1014.64453,
+                            "od": "Iberia Express operates flight #3902",
+                            "ac": [],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "MAD",
+                            "d": 590,
+                            "t": "Long layover at MAD for <b>9h 50m</b>",
+                            "c": "LONG"
+                        }
+                    ],
+                    "od": [
+                        "Iberia Express operates flight #3902"
+                    ]
+                }
+            ],
+            "fs": 0.0,
+            "od": "Iberia Express operates flight #3902",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00E2EW1.0600VIE1.0740CGN0~004UEW1.0915CGN1.1350FUE0",
+            "ac": "00E2EW1.0600VIE1.0740CGN0~004UEW1.0915CGN1.1350FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 216.0,
+                        "f": 1.8243614,
+                        "dp": "€216",
+                        "df": "€1.82"
+                    },
+                    "id": "OneTravel|1|50",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 216.0,
+                        "f": 1.8243614,
+                        "dp": "€216",
+                        "df": "€1.82"
+                    },
+                    "id": "CheapoAir|1|29",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 217.0,
+                        "f": 0.0,
+                        "dp": "€217",
+                        "df": "€0.00"
+                    },
+                    "id": "Hotwire|1|4",
+                    "m": "HotwireUSMeta",
+                    "s": "Hotwire",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 217.0,
+                        "f": 0.0,
+                        "dp": "€217",
+                        "df": "€0.00"
+                    },
+                    "id": "CheapTickets|1|38",
+                    "m": "CTIXUSMeta",
+                    "s": "CheapTickets",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 217.0,
+                        "f": 0.0,
+                        "dp": "€217",
+                        "df": "€0.00"
+                    },
+                    "id": "Expedia|1|46",
+                    "m": "ExpediaUSMeta",
+                    "s": "Expedia",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 217.0,
+                        "f": 0.0,
+                        "dp": "€217",
+                        "df": "€0.00"
+                    },
+                    "id": "Orbitz|1|23",
+                    "m": "OrbitzUSMeta",
+                    "s": "Orbitz",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 254.0,
+                        "f": 45.846203,
+                        "dp": "€254",
+                        "df": "€45.85"
+                    },
+                    "id": "FlightNetwork|1|6",
+                    "m": "FlightNetworkUSMeta",
+                    "s": "FlightNetwork",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "CGN",
+                            "c": 0,
+                            "m": "EW",
+                            "o": "E2",
+                            "e": "319",
+                            "f": "5962",
+                            "si": 0,
+                            "n": 0,
+                            "dd": "2020-02-22T07:00:00+01:00",
+                            "ad": "2020-02-22T08:40:00+01:00",
+                            "di": 464.08884,
+                            "od": "Eurowings Europe operates flight #5962",
+                            "ac": [],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "CGN",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "EW",
+                            "o": "4U",
+                            "e": "320",
+                            "f": "242",
+                            "si": 1967,
+                            "n": 0,
+                            "dd": "2020-02-22T10:15:00+01:00",
+                            "ad": "2020-02-22T13:50:00Z",
+                            "di": 1894.4362,
+                            "od": "Germanwings operates flight #242",
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "CGN",
+                            "d": 95,
+                            "t": "Layover at CGN for <b>1h 35m</b>",
+                            "c": "NORMAL"
+                        }
+                    ],
+                    "od": [
+                        "Eurowings Europe operates flight #5962",
+                        "Germanwings operates flight #242"
+                    ]
+                }
+            ],
+            "fs": 0.0,
+            "od": "Eurowings Europe operates flight #5962, Germanwings operates flight #242",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00IBIB1.1830VIE1.2135MAD0~00I2IB2.1915MAD2.2200FUE0",
+            "ac": "00IBIB1.1830VIE1.2135MAD0~00I2IB2.1915MAD2.2200FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 218.0,
+                        "f": 0.0,
+                        "dp": "€218",
+                        "df": "€0.00"
+                    },
+                    "id": "Expedia|1|45",
+                    "m": "ExpediaUSMeta",
+                    "s": "Expedia",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 218.0,
+                        "f": 49.987503,
+                        "dp": "€218",
+                        "df": "€49.99"
+                    },
+                    "id": "OneTravel|1|49",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 218.0,
+                        "f": 49.987503,
+                        "dp": "€218",
+                        "df": "€49.99"
+                    },
+                    "id": "CheapoAir|1|30",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 218.0,
+                        "f": 0.0,
+                        "dp": "€218",
+                        "df": "€0.00"
+                    },
+                    "id": "Orbitz|1|22",
+                    "m": "OrbitzUSMeta",
+                    "s": "Orbitz",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 218.0,
+                        "f": 0.0,
+                        "dp": "€218",
+                        "df": "€0.00"
+                    },
+                    "id": "CheapTickets|1|37",
+                    "m": "CTIXUSMeta",
+                    "s": "CheapTickets",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 230.0,
+                        "f": 63.122902,
+                        "dp": "€230",
+                        "df": "€63.12"
+                    },
+                    "id": "Travix|1|108",
+                    "m": "VayamaUSMeta",
+                    "s": "Travix",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "MAD",
+                            "c": 0,
+                            "m": "IB",
+                            "o": "IB",
+                            "e": "32A",
+                            "f": "3123",
+                            "si": 1549,
+                            "n": 0,
+                            "dd": "2020-02-22T19:30:00+01:00",
+                            "ad": "2020-02-22T22:35:00+01:00",
+                            "di": 1122.689,
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "MAD",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "IB",
+                            "o": "I2",
+                            "e": "32A",
+                            "f": "3902",
+                            "si": 0,
+                            "n": 0,
+                            "dd": "2020-02-23T20:15:00+01:00",
+                            "ad": "2020-02-23T22:00:00Z",
+                            "di": 1014.64453,
+                            "od": "Iberia Express operates flight #3902",
+                            "ac": [],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "MAD",
+                            "d": 1300,
+                            "t": "Long layover at MAD for <b>21h 40m</b>",
+                            "c": "LONG"
+                        }
+                    ],
+                    "od": [
+                        "Iberia Express operates flight #3902"
+                    ]
+                }
+            ],
+            "fs": 0.0,
+            "od": "Iberia Express operates flight #3902",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00OSLH1.1630VIE1.1735MUC0~004UEW2.0530MUC2.1010FUE0",
+            "ac": "00OSLH1.1630VIE1.1735MUC0~004UEW2.0530MUC2.1010FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 222.0,
+                        "f": 52.17674,
+                        "dp": "€222",
+                        "df": "€52.18"
+                    },
+                    "id": "OneTravel|1|48",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 222.0,
+                        "f": 52.17674,
+                        "dp": "€222",
+                        "df": "€52.18"
+                    },
+                    "id": "CheapoAir|1|20",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 226.0,
+                        "f": 85.708496,
+                        "dp": "€226",
+                        "df": "€85.71"
+                    },
+                    "id": "Priceline|1|47",
+                    "m": "PricelineUSMobileMeta",
+                    "s": "Priceline",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "MUC",
+                            "c": 0,
+                            "m": "LH",
+                            "o": "OS",
+                            "e": "E95",
+                            "f": "6327",
+                            "si": 3412,
+                            "n": 0,
+                            "dd": "2020-02-22T17:30:00+01:00",
+                            "ad": "2020-02-22T18:35:00+01:00",
+                            "di": 221.15555,
+                            "od": "Austrian Airlines operates flight #6327",
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        },
+                        {
+                            "da": "MUC",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "EW",
+                            "o": "4U",
+                            "e": "320",
+                            "f": "1812",
+                            "si": 1967,
+                            "n": 0,
+                            "dd": "2020-02-23T06:30:00+01:00",
+                            "ad": "2020-02-23T10:10:00Z",
+                            "di": 1936.0247,
+                            "od": "Germanwings operates flight #1812",
+                            "ac": [
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [
+                        {
+                            "s": "MUC",
+                            "d": 715,
+                            "t": "Long layover at MUC for <b>11h 55m</b>",
+                            "c": "LONG"
+                        }
+                    ],
+                    "od": [
+                        "Austrian Airlines operates flight #6327",
+                        "Germanwings operates flight #1812"
+                    ]
+                }
+            ],
+            "fs": 0.0,
+            "od": "Austrian Airlines operates flight #6327, Germanwings operates flight #1812",
+            "fsl": "TERRIBLE"
+        },
+        {
+            "key": "00OSOS1.1120VIE1.1620FUE0",
+            "ac": "00OSOS1.1120VIE1.1620FUE0",
+            "l": [
+                {
+                    "pr": {
+                        "p": 224.0,
+                        "f": 85.580795,
+                        "dp": "€224",
+                        "df": "€85.58"
+                    },
+                    "id": "FlightNetwork|1|7",
+                    "m": "FlightNetworkUSMeta",
+                    "s": "FlightNetwork",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 225.0,
+                        "f": 0.0,
+                        "dp": "€225",
+                        "df": "€0.00"
+                    },
+                    "id": "Hotwire|1|5",
+                    "m": "HotwireUSMeta",
+                    "s": "Hotwire",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 225.0,
+                        "f": 0.0,
+                        "dp": "€225",
+                        "df": "€0.00"
+                    },
+                    "id": "Expedia|1|44",
+                    "m": "ExpediaUSMeta",
+                    "s": "Expedia",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 225.0,
+                        "f": 30.2844,
+                        "dp": "€225",
+                        "df": "€30.28"
+                    },
+                    "id": "OneTravel|1|47",
+                    "m": "OneTravelUSMeta",
+                    "s": "OneTravel",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 225.0,
+                        "f": 85.47133,
+                        "dp": "€225",
+                        "df": "€85.47"
+                    },
+                    "id": "Priceline|1|43",
+                    "m": "PricelineUSMobileMeta",
+                    "s": "Priceline",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 225.0,
+                        "f": 30.2844,
+                        "dp": "€225",
+                        "df": "€30.28"
+                    },
+                    "id": "CheapoAir|1|21",
+                    "m": "CheapOairUSMeta",
+                    "s": "CheapoAir",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 226.0,
+                        "f": 0.0,
+                        "dp": "€226",
+                        "df": "€0.00"
+                    },
+                    "id": "CheapTickets|1|41",
+                    "m": "CTIXUSMeta",
+                    "s": "CheapTickets",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 226.0,
+                        "f": 0.0,
+                        "dp": "€226",
+                        "df": "€0.00"
+                    },
+                    "id": "Orbitz|1|26",
+                    "m": "OrbitzUSMeta",
+                    "s": "Orbitz",
+                    "pl": []
+                },
+                {
+                    "pr": {
+                        "p": 237.0,
+                        "f": 97.60334,
+                        "dp": "€237",
+                        "df": "€97.60"
+                    },
+                    "id": "Travix|1|97",
+                    "m": "VayamaUSMeta",
+                    "s": "Travix",
+                    "pl": []
+                }
+            ],
+            "f": [
+                {
+                    "l": [
+                        {
+                            "da": "VIE",
+                            "aa": "FUE",
+                            "c": 0,
+                            "m": "OS",
+                            "o": "OS",
+                            "e": "320",
+                            "f": "9501",
+                            "si": 1306,
+                            "n": 0,
+                            "dd": "2020-02-22T12:20:00+01:00",
+                            "ad": "2020-02-22T16:20:00Z",
+                            "di": 2113.4507,
+                            "ac": [
+                                "TV",
+                                "REGULAR_SEAT"
+                            ],
+                            "tt": "f",
+                            "stf": false
+                        }
+                    ],
+                    "lo": [],
+                    "od": []
+                }
+            ],
+            "fs": 0.0,
+            "od": "",
+            "fsl": "TERRIBLE"
+        }
+    ],
+    "inserts": {
+        "inline": [
+            {
+                "cp": "Dest=FUE&Orig=VIE&cos=0&inYear=2020&adults=1&cnt=1&clt=a&gosox=kTdNZiPu2N5qDInI6CWfecYwvNkNHAMQQ1wb6tT-hXBVgtvMXXno_mEya5FiVqDjLdp6mF1Bmcv4uAeebp9YXw&slot=1&silo=32717&inDay=22&inMonth=02&sid=ee28905a-9f69-456c-b487-7d1d1a5eefab.2649&bucket=890542&geo=187467&AirProvider=LBFFlightsC2C&oi=1546",
+                "l1": "Call Now for Unpublished Lower Fares",
+                "l2": "Save With Phone Only Rates 01 5266425",
+                "ct": "Call Now",
+                "ph": "0035315266425",
+                "lu": "https://static.tacdn.com/img2/flights/offers/logo-180x180/SmartFares_360x360.jpg",
+                "oi": 1546,
+                "r": 3,
+                "pv": "LBFUSMobileInlineC2C",
+                "ps": "TOP",
+                "sp": "Sponsored"
+            },
+            {
+                "cp": "Dest=FUE&Orig=VIE&cos=0&inYear=2020&adults=1&cnt=1&clt=a&gosox=kTdNZiPu2N5qDInI6CWfecYwvNkNHAMQQ1wb6tT-hXDGENqGUTVpfoi0W0NEOOLPUBWNYjgzYhNZApu0xpwjAA&slot=1&silo=32717&inDay=22&inMonth=02&sid=ee28905a-9f69-456c-b487-7d1d1a5eefab.2649&bucket=890542&geo=187467&AirProvider=LBFFlightsC2C&oi=1546",
+                "l1": "Call Now for Unpublished Lower Fares",
+                "l2": "Save With Phone Only Rates 01 5266425",
+                "ct": "Call Now",
+                "ph": "0035315266425",
+                "lu": "https://static.tacdn.com/img2/flights/offers/logo-180x180/SmartFares_360x360.jpg",
+                "oi": 1546,
+                "r": 8,
+                "pv": "LBFUSMobileInlineC2C",
+                "ps": "TOP",
+                "sp": "Sponsored"
+            },
+            {
+                "cp": "Dest=FUE&Orig=VIE&cos=0&inYear=2020&adults=1&cnt=1&clt=a&gosox=kTdNZiPu2N5qDInI6CWfecYwvNkNHAMQQ1wb6tT-hXAAIjmCPaHjjA2w2bD1_dMzjTdzsunaWGQOu2txa5-Ssw&slot=1&silo=32717&inDay=22&inMonth=02&sid=ee28905a-9f69-456c-b487-7d1d1a5eefab.2649&bucket=890542&geo=187467&AirProvider=LBFFlightsC2C&oi=1546",
+                "l1": "Call Now for Unpublished Lower Fares",
+                "l2": "Save With Phone Only Rates 01 5266425",
+                "ct": "Call Now",
+                "ph": "0035315266425",
+                "lu": "https://static.tacdn.com/img2/flights/offers/logo-180x180/SmartFares_360x360.jpg",
+                "oi": 1546,
+                "r": 13,
+                "pv": "LBFUSMobileInlineC2C",
+                "ps": "TOP",
+                "sp": "Sponsored"
+            }
+        ]
+    },
+    "equipment": [
+        {
+            "i": "E95",
+            "n": "Embraer 195",
+            "t": "Narrowbody Jets"
+        },
+        {
+            "i": "320",
+            "n": "Airbus A320",
+            "t": "Narrowbody Jets"
+        },
+        {
+            "i": "32A",
+            "n": "Airbus A320-200",
+            "t": "Narrowbody Jets"
+        },
+        {
+            "i": "319",
+            "n": "Airbus A319",
+            "t": "Narrowbody Jets"
+        },
+        {
+            "i": "73H",
+            "n": "Boeing 737-800",
+            "t": "Narrowbody Jets"
+        }
+    ],
+    "amenities": [
+        {
+            "c": "TV",
+            "t": "Television",
+            "l": "https://static.tacdn.com/img2/flights/amenity_icons/gray/tv.png"
+        },
+        {
+            "c": "REGULAR_SEAT",
+            "t": "Standard seat",
+            "l": "https://static.tacdn.com/img2/flights/amenity_icons/gray/regularSeat.png"
+        },
+        {
+            "c": "POWER",
+            "t": "Power available",
+            "l": "https://static.tacdn.com/img2/flights/amenity_icons/gray/power.png"
+        },
+        {
+            "c": "WIFI",
+            "t": "WiFi",
+            "l": "https://static.tacdn.com/img2/flights/amenity_icons/gray/wifi.png"
+        }
+    ],
+    "carriers": [
+        {
+            "i": 0,
+            "c": "ZZ",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/api_default.png",
+            "n": "Multiple Airlines"
+        },
+        {
+            "i": 8729082,
+            "c": "4U",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/Germanwings.png",
+            "n": "Germanwings"
+        },
+        {
+            "i": 8729075,
+            "c": "EW",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/Eurowings2.png",
+            "n": "Eurowings"
+        },
+        {
+            "i": 8729185,
+            "c": "VY",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/Vueling.png",
+            "n": "Vueling"
+        },
+        {
+            "i": 8729027,
+            "c": "OS",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AustrianAirlines.png",
+            "n": "Austrian"
+        },
+        {
+            "i": 14190667,
+            "c": "OE",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/Laudamotion.png",
+            "n": "Laudamotion"
+        },
+        {
+            "i": 8729089,
+            "c": "IB",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/Iberia.png",
+            "n": "Iberia"
+        },
+        {
+            "i": 10823588,
+            "c": "I2",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IberiaExpress.png",
+            "n": "Iberia Express"
+        },
+        {
+            "i": 8729141,
+            "c": "FR",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/RyanAir.png",
+            "n": "Ryanair"
+        },
+        {
+            "i": 8729113,
+            "c": "LH",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/Lufthansa_02.png",
+            "n": "Lufthansa"
+        },
+        {
+            "i": 0,
+            "c": "E2",
+            "l": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/api_default.png",
+            "n": "Eurowings Europe"
+        }
+    ],
+    "providers": [
+        {
+            "l": "https://static.tacdn.com/img2/flights/partners/highres/flightnetwork.png",
+            "n": "FlightNetwork",
+            "i": "FlightNetwork"
+        },
+        {
+            "l": "https://static.tacdn.com/img2/flights/partners/highres/onetravel.png",
+            "n": "OneTravel",
+            "i": "OneTravel"
+        },
+        {
+            "l": "https://static.tacdn.com/img2/flights/partners/highres/orbitz.png",
+            "n": "Orbitz",
+            "i": "Orbitz"
+        },
+        {
+            "l": "https://static.tacdn.com/img2/flights/partners/highres/priceline_v2.png",
+            "n": "Priceline",
+            "i": "Priceline"
+        },
+        {
+            "l": "https://static.tacdn.com/img2/flights/partners/highres/hotwire.png",
+            "n": "Hotwire",
+            "i": "Hotwire"
+        },
+        {
+            "l": "https://static.tacdn.com/img2/flights/partners/highres/cheapoair.png",
+            "n": "CheapOair",
+            "i": "CheapoAir"
+        },
+        {
+            "l": "https://static.tacdn.com/img2/flights/partners/highres/cheaptickets.png",
+            "n": "CheapTickets",
+            "i": "CheapTickets"
+        },
+        {
+            "l": "https://static.tacdn.com/img2/flights/partners/highres/expedia.png",
+            "n": "Expedia",
+            "i": "Expedia"
+        },
+        {
+            "l": "https://static.tacdn.com/img2/flights/partners/highres/vayama2.png",
+            "n": "Vayama",
+            "i": "Travix"
+        }
+    ],
+    "airports": [
+        {
+            "tz": "Europe/Madrid",
+            "d": "Madrid, Spain - Barajas Airport (MAD)",
+            "c": "MAD",
+            "i": 187514,
+            "g": {
+                "lat": 40.491665,
+                "lon": -3.5641665
+            },
+            "cc": "ES",
+            "cn": "Madrid",
+            "n": "Barajas Airport",
+            "st": "SP"
+        },
+        {
+            "tz": "Europe/Vienna",
+            "d": "Vienna, Austria - Vienna International Airport (VIE)",
+            "c": "VIE",
+            "i": 190454,
+            "g": {
+                "lat": 48.112778,
+                "lon": 16.5675
+            },
+            "cc": "AT",
+            "cn": "Vienna",
+            "n": "Vienna Intl Airport"
+        },
+        {
+            "tz": "Atlantic/Canary",
+            "d": "Fuerteventura, Spain - Fuerteventura (FUE)",
+            "c": "FUE",
+            "i": 187467,
+            "g": {
+                "lat": 28.452778,
+                "lon": -13.863889
+            },
+            "cc": "ES",
+            "cn": "Fuerteventura",
+            "n": "Puerto del Rosario Airport",
+            "st": "CI"
+        },
+        {
+            "tz": "Europe/Berlin",
+            "d": "Munich, Germany - Franz Josef Strauss Airport (MUC)",
+            "c": "MUC",
+            "i": 187309,
+            "g": {
+                "lat": 48.35361,
+                "lon": 11.780278
+            },
+            "cc": "DE",
+            "cn": "Munich",
+            "n": "Franz Josef Strauss Airport"
+        },
+        {
+            "tz": "Europe/Berlin",
+            "d": "Cologne, Germany - Konrad Adenauer (CGN)",
+            "c": "CGN",
+            "i": 187370,
+            "g": {
+                "lat": 50.866943,
+                "lon": 7.1383333
+            },
+            "cc": "DE",
+            "cn": "Bonn",
+            "n": "Koeln-Bonn Airport"
+        },
+        {
+            "tz": "Europe/Madrid",
+            "d": "Barcelona, Spain - Barcelona Airport (BCN)",
+            "c": "BCN",
+            "i": 187497,
+            "g": {
+                "lat": 41.29778,
+                "lon": 2.0827777
+            },
+            "cc": "ES",
+            "cn": "Barcelona",
+            "n": "Barcelona Airport",
+            "st": "SP"
+        }
+    ],
+    "air_watch_info": {
+        "sw": false,
+        "ws": false
+    },
+    "disclaimers": [
+        {
+            "st": "TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (more)",
+            "lt": "Tripadvisor is not a booking agent and does not charge service fees to users of our site or guarantee the availability of prices advertised on our site. Our partners (airlines and booking agents) who list airfare and travel packages on Tripadvisor are required by law to include all fees and surcharges in their prices. Examples include the Federal Sept. 11th Security Fee, international departure and arrival taxes & fees, federal excise tax, and other service, handling and miscellaneous fees and surcharges. When you book with our partners, please check their site for a full disclosure of all applicable fees as required by the U.S. Department of Transportation. Airfares are generally quoted per person in USD unless otherwise noted.",
+            "dt": "SEARCH_RESULT",
+            "ct": "Learn more"
+        },
+        {
+            "st": "Baggage fees may apply",
+            "lt": "Prices subject to change. Fares found on Tripadvisor do not include baggage fees. Therefore, additional baggage <u>and other</u> fees may apply.",
+            "lk": "https://www.tripadvisor.com/AirlineFees",
+            "dt": "BAGGAGE",
+            "ct": "Learn more"
+        }
+    ],
+    "fly_score_info": {
+        "TERRIBLE": "This flight gets a terrible score based on the quality of the aircraft, amenities, flight duration, and Tripadvisor reviews.",
+        "AVERAGE": "This flight gets an average score based on the quality of the aircraft, amenities, flight duration, and Tripadvisor reviews.",
+        "POOR": "This flight gets a poor score based on the quality of the aircraft, amenities, flight duration, and Tripadvisor reviews.",
+        "EXCELLENT": "This flight gets an excellent score based on the quality of the aircraft, amenities, flight duration, and Tripadvisor reviews.",
+        "VERY_GOOD": "This flight gets a very good score based on the quality of the aircraft, amenities, flight duration, and Tripadvisor reviews."
+    },
+    "search_params": {
+        "it": "ONE_WAY",
+        "o": 0,
+        "st": "2020-02-09T15:17:21Z",
+        "pvid": "",
+        "et": 1581263181,
+        "so": "PRICE",
+        "t": {
+            "a": 1,
+            "s": 0,
+            "c": []
+        },
+        "s": [
+            {
+                "dd": "2020-02-22",
+                "o": "VIE",
+                "d": "FUE",
+                "no": false,
+                "nd": false
+            }
+        ],
+        "sid": "ee28905a-9f69-456c-b487-7d1d1a5eefab.2649",
+        "c": 0,
+        "n": 15,
+        "f": {
+            "mc": [],
+            "ns": [
+                "NON_STOP",
+                "ONE_STOP"
+            ],
+            "oc": [],
+            "da": [],
+            "aa": [],
+            "ca": [],
+            "plp": [],
+            "al": [],
+            "tt": [],
+            "ss": [],
+            "am": []
+        }
+    }
+}

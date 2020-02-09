@@ -21,7 +21,8 @@ class FlightsController extends Controller
      */
     public function getTrip(FlightsRequest $request): StreamInterface
     {
-        return $this->create($request);
+        $session = $this->create($request);
+        return $this->flightsRepository->pollBySid($session->search_params->sid);
     }
     /**
      * @param  FlightsRequest  $request
@@ -29,6 +30,6 @@ class FlightsController extends Controller
      */
     private function create(FlightsRequest $request): StreamInterface
     {
-        return $this->flightsRepository->getSession($request->params);
+        return json_decode($this->flightsRepository->getSession($request->params));
     }
 }
