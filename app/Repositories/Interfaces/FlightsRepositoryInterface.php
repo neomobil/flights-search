@@ -9,7 +9,7 @@ interface FlightsRepositoryInterface
      *
      * @param  array  $queryParams
      */
-    public function createSession( array $queryParams);
+    public function getSession( array $queryParams);
 
     /**
      * Query api by sid

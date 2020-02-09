@@ -14,4 +14,4 @@ use Illuminate\Http\Request;
 */
 
 Route::get('airports', 'AirportsController@search');
-Route::post('create-flight-session', 'FlightsController@create');
+Route::post('create-flight-session', 'FlightsController@getTrip');

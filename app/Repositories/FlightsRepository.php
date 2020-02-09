@@ -15,16 +15,22 @@ class FlightsRepository implements FlightsRepositoryInterface
     {
         $this->client = new Client([
             'base_uri' => config('rapidapi.url'),
-            'timeout' => 2.0
+            'timeout' => 2.0,
+            'headers' => [
+                'x-rapidapi-host' => config('rapidapi.headers.x-rapidapi-host'),
+                'x-rapidapi-key' => config('rapidapi.headers.x-rapidapi-key'),
+            ]
         ]);
     }
 
     /**
      * @inheritDoc
      */
-    public function createSession(array $queryParams): StreamInterface
+    public function getSession(array $queryParams): StreamInterface
     {
-        // TODO: Implement create() method.
+        return $this->client->get('flights/create-session', [
+            'query' => $queryParams
+        ])->getBody();
     }
 
     /**
