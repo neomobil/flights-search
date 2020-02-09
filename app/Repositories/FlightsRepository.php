@@ -36,8 +36,15 @@ class FlightsRepository implements FlightsRepositoryInterface
     /**
      * @inheritDoc
      */
-    public function pollBySid(string $sid)
+    public function pollBySid(string $sid, string $currency = 'EUR', $ns = 'NON_STOP,ONE_STOP', $sort = 'PRICE')
     {
-        // TODO: Implement pollBySid() method.
+        return $this->client->get('flights/create-session', [
+            'query' => [
+                'sid' => $sid,
+                'currency' => $currency,
+                'ns' => $ns,
+                'so' => $sort
+            ]
+        ])->getBody();
     }
 }
